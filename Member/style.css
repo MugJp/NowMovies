@@ -1,0 +1,300 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+span{
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/* ___________________________ Header_____________________*/
+
+.glyphicon{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+
+/*................INDEX.........................*/
+
+.wrapper {
+    height: 578px;
+    width: 100%;
+    background-color: darkslategrey;
+    min-height: 100vh;
+}
+
+/*header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    overflow: hidden;
+
+
+}*/
+
+section .sect_img {
+    margin-top: 0px;
+    height: 450px;
+    width: 100%;
+    /* background-color: gray;*/
+    background-image: url("images/theater.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+section {
+    height: 450px;
+    width: 100%;
+    background-color: gray;
+    min-height: 100vh;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    overflow: hidden;
+    bottom: 0px;
+    position: fixed;
+}
+
+/*.logo {
+    float: left;
+    padding-left: 1px;
+    padding-top: 1px;
+}*/
+
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*nav {
+    float: right;
+    word-spacing: 20px;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 39px;
+}*/
+
+.info {
+    height: 350px;
+    width: 400px;
+    margin: 100px auto;
+    color: white;
+    position: fixed;
+    /*padding: 20px;*/
+    /*background-color: rgba(255, 255, 255, 0.14);*/
+}
+
+
+/*...................Members-Log.....................*/
+
+.log_img {
+    margin-top: 0px;
+    height: 450px;
+    width: 100%;
+    /*background-color: gray;*/
+    background-image: url("images/logon.jpg");
+    /*background-color: transparent !important;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: fixed;
+}
+
+form .login {
+    margin: auto 25px;
+}
+
+input {
+    height: 20px;
+    width: 250px;
+}
+
+/*........................Registration.........................*/
+
+.info2 {
+    height: 480px;
+    width: 400px;
+    margin: 70px auto;
+    color: white;
+    position: fixed;
+    /*background-color: green;*/
+    padding: 10px;
+}
+
+/*.....................Movies.....................................*/
+
+/*
+.table-fixed {
+    width: 400px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table-fixed tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 250px;
+}
+
+
+.table-fixed thead tr {
+    display: block;
+
+
+
+}
+
+
+.table-fixed th, .table-fixed td {
+    padding: 10px;
+    text-align: left;
+    width: 210px;
+    position: relative;
+}*/
+
+.search_item{
+    position: relative;
+    left: 980px;
+    /*padding-right: 500px;*/
+    top: 100px;
+    /*padding-top: 100px;*/
+    /*background-color: green;*/
+    height: 200px;
+    width: 280px;
+
+}
+
+
+
